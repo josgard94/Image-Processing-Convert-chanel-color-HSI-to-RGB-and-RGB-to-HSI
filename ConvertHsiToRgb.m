@@ -1,3 +1,8 @@
+%   Autor: Edgard Diaz
+%   contact: e.diaz@nartsoft.com.mx
+%   date: 10 - 06 - 2019
+%   Esta función realiza la conversión de los canales HSI a RGB.
+%
 function [r,g,b] = ConvertHsiToRgb(hsi)
 H=hsi(:,:,1);
 S=hsi(:,:,2);
